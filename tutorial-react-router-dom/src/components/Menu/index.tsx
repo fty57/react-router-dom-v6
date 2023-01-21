@@ -1,4 +1,3 @@
-import "./style.css";
 import { Link } from "react-router-dom";
 
 export const Menu = () => {
@@ -16,6 +15,9 @@ export const Menu = () => {
         </li>
         <li>
           <Link to="/posts/10">Posts 10</Link>
+        </li>
+        <li>
+          <Link to="/redirect">Redirect</Link>
         </li>
       </ul>
     </nav>
